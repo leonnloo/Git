@@ -1,13 +1,22 @@
 /**
- * @file 20410097.cpp
  * @author Leon (https://github.com/leonnloo)
  * @brief 
+ * This program implements a Hyper-Heuristic Simulated Annealing algorithm to solve the Bin Packing Problem (BPP).
+ * It dynamically selects and applies adaptive low-level heuristics to minimize the number of bins needed 
+ * to pack a set of items without exceeding the bin capacity.
+ * 
+ * Key features include:
+ * - Hyper-heuristic framework for dynamic heuristic selection and learning.
+ * - Multiple heuristic strategies (e.g., Shift, Split, Largest Bin, Shuffle, Best Packing).
+ * - Configurable parameters for temperature, iterations, and runs.
+ * 
  * @version 0.1
  * @date 2024-10-30
  * 
  * @copyright Copyright (c) 2024
  * 
  */
+
 
 #include <iostream>
 #include <fstream>
